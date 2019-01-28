@@ -16,14 +16,14 @@ particlesJS('particles-js',
   {
     "particles": {
       "number": {
-        "value": 100,
+        "value": 1000,
         "density": {
           "enable": true,
           "value_area": 800
         }
       },
       "color": {
-        "value": "#31ff9b"
+        "value": "#fff"
       },
       "shape": {
         "type": "circle",
@@ -61,7 +61,7 @@ particlesJS('particles-js',
         }
       },
       "line_linked": {
-        "enable": true,
+        "enable": false,
         "distance": 150,
         "color": "#31ff9b",
         "opacity": 0.8,
@@ -70,7 +70,7 @@ particlesJS('particles-js',
       "move": {
         "enable": true,
         "speed": 3,
-        "direction": "none",
+        "direction": "bottom",
         "random": false,
         "straight": false,
         "out_mode": "out",
@@ -82,20 +82,20 @@ particlesJS('particles-js',
       }
     },
     "interactivity": {
-      "detect_on": "canvas",
+      "detect_on": "window",
       "events": {
         "onhover": {
-          "enable": true,
-          "mode": "grab"
+          "enable": false,
+          "mode": "repulse"
         },
         "onclick": {
-          "enable": true,
+          "enable": false,
           "mode": "push"
         },
         "resize": true
       },
       "modes": {
-        "grab": {
+        "snow": {
           "distance": 400,
           "line_linked": {
             "opacity": 1
@@ -122,8 +122,8 @@ particlesJS('particles-js',
     "retina_detect": true,
     "config_demo": {
       "hide_card": false,
-      "background_color": "#b61924",
-      "background_image": "",
+      "background_color": "",
+      "background_image": "image/kashmir.jpg",
       "background_position": "50% 50%",
       "background_repeat": "no-repeat",
       "background_size": "cover"

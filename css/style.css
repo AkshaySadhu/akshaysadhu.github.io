@@ -10,7 +10,7 @@ img {
 }
 
 html {
-  background-color: #0c0c0c;
+  background-color: #000;
   height: 100%;
   user-select: none;
   -ms-user-select: none;
@@ -130,6 +130,6 @@ figure {
 #particles-js {
   width: 100%;
   height: 100%;
-  background-color: #4444ff;
+  background-color: brown;
   text-align: center;
 }
