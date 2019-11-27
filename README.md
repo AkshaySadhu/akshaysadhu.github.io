@@ -1,5 +1,3 @@
+My Website hosted on github.
 
-### Credits
-https://vincentgarreau.com/particles.js for Particles.js
-
-https://freehtml5.co for Parts of CSS
+Visit Here:-[Touch here](https://amog787.github.io/amoghamaiya.github.io/)
